@@ -1,6 +1,6 @@
-const express = require('express');
-const { USER, COURSE } = require('../db');
-const { AuthUser, generateTokenU } = require('../middleware/Auth');
+const express = require("express");
+const { USER, COURSE } = require("../db");
+const { AuthUser, generateTokenU } = require("../middleware/auth");
 const router = express.Router();
 
 // User routes
